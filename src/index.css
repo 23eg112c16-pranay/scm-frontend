@@ -1,0 +1,7 @@
+:root { color-scheme: dark; }
+body { margin: 0; }
+* { box-sizing: border-box; }
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #10121a; }
+::-webkit-scrollbar-thumb { background: #333852; border-radius: 3px; }
+.form-control.error { border-color: #f43f5e; }
