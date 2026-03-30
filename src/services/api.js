@@ -1,4 +1,4 @@
-const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8080/api";
+const BASE_URL = import.meta.env.VITE_API_URL || "https://scm-backend-ygsj.onrender.com/api";
 
 const request = async (endpoint, options = {}) => {
   const res = await fetch(`${BASE_URL}${endpoint}`, {
